@@ -1,0 +1,224 @@
+{
+    "content":
+    [
+        {
+            "tag" : "greetings",
+            "patterns" : ["hello", "welcome", "hi","hay","wake up","python"],
+            "responses" : ["hello sir" , "how are you sir", "Always For You Sir", "Hello","Here's Your Assistant"]
+        },
+        {
+            "tag" : "bye",
+            "patterns" : ["bye", "goodbye", "see you later","sleep", "exit"],
+            "responses" : ["Bye" , "I am Going", "Bye Sir","Goodbye", "It will be nice to meet you again"]
+        },
+        {
+            "tag" : "health",
+            "patterns" : ["how are you", "how do you do", "are you fine ?","are you good"],
+            "responses" : ["fine." , "perfect", "cool","Are you Fine ? I'm Fine"]
+        },
+        {
+            "tag" : "identity",
+            "patterns" : ["your name", "what is your name", "who are you","whar are you"],
+            "responses" : ["Python Assistant" , "I am Python Assistant created by engineer Karim Mohammed Aboelazm",
+                            "An artificial intelligence assistant and my name is Python Assistant","My Name is Python Assistant"]
+        },
+        {
+            "tag" : "time",
+            "patterns" : ["what time is now ?", "what is the time ?", "tell me time","time"],
+            "responses" : ["The time is "]
+
+        },
+        {
+            "tag" : "date",
+            "patterns" : ["what date is ?", "what is the date ?", "tell me date","date"],
+            "responses" : ["The date is "]
+        },
+        {
+            "tag" : "day",
+            "patterns" : ["what day is ?", "what is the day ?", "tell me day","day","today is"],
+            "responses" : ["The day is "]
+        },
+        {
+            "tag" : "internet speed",
+            "patterns" : ["what Internet speed ?", "Internet speed", "The Speed of internet","check The internet"],
+            "responses" : ["internet speed "]
+        },
+        {
+            "tag" : "wikipedia",
+            "patterns" : ["who is  ?", "about", "what is ","wikipedia","which is","What do you know about ?"],
+            "responses" : ["wikipedia"]
+        },
+        {
+            "tag" : "google",
+            "patterns" : ["google search", "search for", "searching for","search about","google","which is"],
+            "responses" : ["google"]
+        },
+        {
+            "tag" : "YouTube",
+            "patterns" : ["YouTube search", "in YouTube", "YouTube"],
+            "responses" : ["YouTube"]
+        },
+        {
+            "tag" : "website",
+            "patterns" : ["open", "website","site"],
+            "responses" : ["website"]
+        },
+        {
+            "tag" : "playmusic",
+            "patterns" : ["play", "music","youtube music"],
+            "responses" : ["playmusic"]
+        },
+        {
+            "tag" : "weather",
+            "patterns" : ["weather in","what is weather in","weather for","tell me the weather for","what is the weather for"],
+            "responses" : ["weather"]
+        },
+        {
+            "tag" : "temperature",
+            "patterns" : ["temperature","what is the temperature","temperature in","temperature for"],
+            "responses" : ["temperature"]
+        },
+        {
+            "tag" : "calculate",
+            "patterns" : ["calculate","plus","multiply","div on","power","minus","divide","in","into","+","-","/","x"],
+            "responses" : ["calculate"]
+        },
+        {
+            "tag" : "whatsapp message",
+            "patterns" : ["send message to","send","whatsapp message","make a message","message to","message for"],
+            "responses" : ["whatsapp message"]
+        },
+        {
+            "tag" : "whatsapp call",
+            "patterns" : ["make a call","call","whatsapp call"],
+            "responses" : ["whatsapp call"]
+        },
+        {
+            "tag" : "whatsapp video",
+            "patterns" : ["make a video","video","whatsapp video","video call"],
+            "responses" : ["whatsapp video"]
+
+        },
+        {
+            "tag" : "whatsapp chat",
+            "patterns" : ["open chat","chating with","whatsapp chat","chat with","chat to","to chat with","show chat"],
+            "responses" : ["whatsapp chat"]
+
+        },
+        {
+            "tag" : "facebook message",
+            "patterns" : ["send messager to","make a messager","messager to","messager for"],
+            "responses" : ["facebook message"]
+        },
+        {
+            "tag" : "facebook call",
+            "patterns" : ["make a massenger call","massenger call"],
+            "responses" : ["facebook call"]
+        },
+        {
+            "tag" : "facebook video",
+            "patterns" : ["make a massenger video","massenger video","video in massenger"],
+            "responses" : ["facebook video"]
+        },
+        {
+            "tag" : "facebook chat",
+            "patterns" : ["open massenger","massenger chat","show massenger chat"],
+            "responses" : ["facebook chat"]
+        },
+        {
+            "tag" : "open instagram",
+            "patterns" : ["open instagram","instagram","insta"],
+            "responses" : ["open instagram"]
+        },
+        {
+            "tag" : "open word",
+            "patterns" : ["open word file","word file","ms word","microsoft word","open word"],
+            "responses" : ["open word"]
+        },
+        {
+            "tag" : "open powerpoint",
+            "patterns" : ["open ppt file","powerpoint file","ms power","microsoft powerpoint","power file","open powerpoint"],
+            "responses" : ["open powerpoint"]
+        },
+        {
+            "tag" : "open excel",
+            "patterns" : ["open excel file","excel file","ms excel","microsoft excel","sheet"],
+            "responses" : ["open excel"]
+        },
+        {
+            "tag" : "open access",
+            "patterns" : ["open access file","access file","ms access","microsoft access","access"],
+            "responses" : ["open access"]
+        },
+        {
+            "tag" : "open chrome",
+            "patterns" : ["open chrome","google chrome","chrome"],
+            "responses" : ["open chrome"]
+        },
+        {
+            "tag" : "open vscode",
+            "patterns" : ["open visual Studio code","vs","code","vscode"],
+            "responses" : ["open vscode"]
+        },
+        {
+            "tag" : "open command",
+            "patterns" : ["open command prompt","cmd","prompt","black screen"],
+            "responses" : ["open command"]
+        },
+        {
+            "tag" : "open photoshop",
+            "patterns" : ["open photoshop","photo shop","photoshop","ps","image shop"], 
+            "responses" : ["open photoshop"]
+        },
+        {
+            "tag" : "open outlook",
+            "patterns" : ["open outlook","outlook","my outlook","my masseges"], 
+            "responses" : ["open outlook"]
+        },
+        {
+            "tag" : "open jupyter",
+            "patterns" : ["open jupyter","jupyter","jupyter editor","jupeter","ml editor jupyter","machine learning jupyter"], 
+            "responses" : ["open jupyter"]
+        },
+        {
+            "tag" : "open spyder",
+            "patterns" : ["open spyder","spyder","spider","ml editor spyder","machine learning spyder"], 
+            "responses" : ["open spyder"]
+        },
+        {
+            "tag" : "open zoom",
+            "patterns" : ["open zoom","zoom","zoom meeting"], 
+            "responses" : ["open zoom"]
+        },
+        {
+            "tag" : "open py projects",
+            "patterns" : ["open py projects","py","py scripts","my scripts","python projects"],  
+            "responses" : ["open py projects"]
+        },
+        {
+            "tag" : "open dj projects",
+            "patterns" : ["open dj projects","dj","dj scripts","my dj scripts","django projects"],  
+            "responses" : ["open dj projects"]
+        },
+        {
+            "tag" : "remember that",
+            "patterns" : ["Can You remember that","remember that","remind me that", "remember"],  
+            "responses" : ["remember that"]
+        },
+        {
+            "tag" : "what do you remember",
+            "patterns" : ["what do you remember","Do You remember that", "Do you still remember","Do you still remind that"],  
+            "responses" : ["what do you remember"]
+        },
+        {
+            "tag" : "how to",
+            "patterns" : ["How can I","how can I do", "how to"],  
+            "responses" : ["how to"]
+        },
+        {
+            "tag" : "break",
+            "patterns" : ["sleep","Take a break", "break","you need a break Omar"],   
+            "responses" : ["break"]
+        }
+    ]
+}
